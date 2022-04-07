@@ -1,0 +1,6 @@
+x=rnorm(10000)
+y=rnorm(10000)
+print(person=rbind(x,y))
+
+plot(x,y, xlim=c(-10000,10000),ylim=c(-10000,10000))
+title(main="Normal People")
